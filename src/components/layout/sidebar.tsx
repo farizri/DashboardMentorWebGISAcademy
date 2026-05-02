@@ -9,6 +9,8 @@ const navigation = [
   { name: "List Peserta (Lark)", href: "/list-peserta", icon: Users },
   { name: "Grading & Monitoring", href: "/monitoring", icon: BarChart2 },
   { name: "Progress Portofolio", href: "/portfolio", icon: Briefcase },
+  { name: "Admin Dashboard", href: "/admin", icon: BarChart2 },
+  { name: "Peserta Dashboard", href: "/peserta", icon: Users },
 ];
 
 export function Sidebar() {

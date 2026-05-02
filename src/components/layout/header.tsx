@@ -7,6 +7,9 @@ const pageTitles: Record<string, string> = {
   "/list-peserta": "List Peserta WebGIS",
   "/monitoring": "Monitoring & Grading",
   "/portfolio": "Progress Portofolio WebGIS",
+  "/admin": "Platform Administration",
+  "/peserta": "My Progress Dashboard",
+  "/register": "Create Account",
 };
 
 export function Header() {
