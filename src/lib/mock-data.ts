@@ -12,7 +12,7 @@ export interface Participant {
     preTest: number;
     quiz1: number;
     quiz2: number;
-    finalExam: number;
+    finalExam: number | null;
     finalProject: number | "Needs Grading" | null;
   };
   progress: number;
